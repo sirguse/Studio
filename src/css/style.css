@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+
+nav .navbar-brand {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+nav .navbar-brand i {
+  color: rgb(255, 119, 40);
+}
+nav .navbar-toggler {
+  padding: 1em 1.5em; /* Powoduje zwiekszenie obszaru klikalnego*/
+}
+
+.home {
+  position: relative;
+  height: 70rem;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home .btn {
+  padding: 1em 2em;
+  font-size: 1.4rem;
+}
+.home .welcome-text {
+  font-size: 2rem;
+}
+.home .h {
+  font-weight: 500;
+}
+
+.aboutus-box .row h3 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
